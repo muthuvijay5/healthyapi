@@ -21,5 +21,5 @@ starlette==0.13.6
 threadpoolctl==2.1.0
 typing_extensions==3.7.4.3
 uvicorn==0.13.4
-watchfiles==0.5.1
+watchfiles==0.18.0
 websockets==8.1
