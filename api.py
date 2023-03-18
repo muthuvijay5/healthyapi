@@ -124,3 +124,8 @@ def getDietPlan(height: int, weight: int):
 @app.get("/exercise")
 def getExercise(bodypart: str):
     return {"Exercises": exercises[bodypart]}
+
+
+@app.get("/")
+def helloWorld():
+    return {"Hello": "World"}
